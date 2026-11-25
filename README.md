@@ -19,9 +19,9 @@ from satellites falling out of orbit to chess bots that play like humans.
 | Project | What it does |
 |---|---|
 | [Chess_Engine](https://github.com/yatharthjag2008/Chess_Engine) | Human-like chess engine: a rating-conditioned neural network trained on millions of Lichess blitz games predicts what a player at a given rating (800–2200+) would play, powering a bot you can dial to any strength, plus game review and coaching tools |
-| [Satellite_Reentry_Prediction](https://github.com/yatharthjag2008/Satellite_Reentry_Prediction) | Orbital lifetime prediction from CelesTrak catalog and space-weather data using XGBoost; includes a lookup tool for ~71,000 tracked objects |
-| [HealthCareProject]([team-repo-link]) | Group research on long-term trends in healthcare |
-| [Air_Quality_Project](https://github.com/yatharthjag2008/Air_Quality_Project) | Java CLI that detects your location, pulls live AQI data, and warns you when air quality crosses your threshold |
+| [Satellite_Reentry_Prediction](https://github.com/yatharthjag2008/Satellite_Reentry_Prediction) | Predicts how many days until an object falls out of orbit by pairing a from-scratch atmospheric drag simulation with XGBoost that corrects the physics; trained on 17,558 past reentries, 16% median error, plus a live lookup site for ~71,000 tracked objects |
+| [HealthCareProject]([team-repo-link]) | Group research on how U.S. healthcare spending has grown from 1970 to 2025, using OECD health accounts data (dollars per person) broken down by who pays, from government and insurance to out-of-pocket, cleaned and analyzed in pandas and Jupyter |
+| [Air_Quality_Tracker](https://github.com/yatharthjag2008/Air_Quality_Tracker) | Java 25 command-line tool that finds your location with IP-API, pulls the current US AQI from the Open-Meteo API, translates it into plain words like Good or Unhealthy, and warns you with a health tip when the air crosses a level you choose |
 
 ### Highlights
 - Chess_Engine predicts the move a human actually played 41.7% of the time on
